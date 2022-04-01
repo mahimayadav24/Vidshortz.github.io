@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: NotoSerif__Bold;
+    src: url('../Fonts/Noto_Serif/NotoSerif-Bold.ttf');
+}
+
+
+@font-face {
+    font-family: NotoSerif__Regular;
+    src: url('../Fonts/Noto_Serif/NotoSerif-Regular.ttf');
+}
+
+
+
+
+
+.button-class button {
+    border: 1px solid transparent;
+    width: 30%;
+    background: #7E29DA;
+    box-shadow: 0px 8px 12px rgba(124, 40, 217, 0.18);
+    border-radius: 10px;
+    padding: 15px 10px;
+    margin: 0px 10px;
+    color: rgba(255, 255, 255, 1);
+    transition: .3s ease-in-out;
+}
+
+.button-class button:hover {
+    border: 1px solid rgba(255, 0, 0, 1);
+    color: rgba(255, 0, 0, 1);
+    background-color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 640px) {
+    .button-class button {
+        width: auto;
+    }
+}
+
